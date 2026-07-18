@@ -6,72 +6,140 @@
     <title>Syed Ibrahim | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Syed Ibrahim</h1>
-    <p>Aspiring Chartered Accountant | B.Com (Hons) Student</p>
+<div class="overlay" id="overlay"></div>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#certificates">Certificates</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<header>
+
+    <div class="logo">
+        <h2>Syed Ibrahim</h2>
+    </div>
+
+    <button id="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
 </header>
 
-<section id="about">
-    <h2>About Me</h2>
+<nav id="sideMenu">
+
+    <button id="closeBtn">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+
+</nav>
+
+<section class="hero" id="home">
+
+    <h1>Syed Ibrahim</h1>
+
+    <h3>Aspiring Chartered Accountant</h3>
 
     <p>
-        Welcome to my professional portfolio.
-        I am currently pursuing B.Com (Honours) along with CA Foundation.
-        I am passionate about accounting, finance, technology, and continuous learning.
+        B.Com (Hons) Student • CA Foundation Student
     </p>
+
+    <div class="buttons">
+
+        <a href="#about" class="btn">
+            About Me
+        </a>
+
+        <a href="#contact" class="btn-outline">
+            Contact
+        </a>
+
+    </div>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am currently pursuing B.Com (Honours) alongside CA Foundation. I am passionate about accounting, finance, technology, and continuous learning.
+</p>
+
 </section>
 
 <section id="education">
-    <h2>Education</h2>
 
-    <ul>
-        <li>B.Com (Honours) — Currently Pursuing</li>
-        <li>CA Foundation — Currently Pursuing</li>
-    </ul>
+<h2>Education</h2>
+
+<div class="card">
+
+<h3>B.Com (Honours)</h3>
+
+<p>Currently Pursuing</p>
+
+</div>
+
+<div class="card">
+
+<h3>CA Foundation</h3>
+
+<p>Currently Pursuing</p>
+
+</div>
+
 </section>
 
 <section id="skills">
-    <h2>Skills</h2>
 
-    <ul>
-        <li>Accounting</li>
-        <li>Microsoft Office</li>
-        <li>Google Workspace</li>
-        <li>Communication</li>
-        <li>Time Management</li>
-    </ul>
+<h2>Skills</h2>
+
+<div class="card">
+Accounting
+</div>
+
+<div class="card">
+Microsoft Office
+</div>
+
+<div class="card">
+Google Workspace
+</div>
+
+<div class="card">
+Communication
+</div>
+
 </section>
 
 <section id="certificates">
-    <h2>Certificates</h2>
 
-    <p>
-        Professional certifications will be added here.
-    </p>
+<h2>Certificates</h2>
+
+<p>Certificates will be added here.</p>
+
 </section>
 
 <section id="contact">
-    <h2>Contact</h2>
 
-    <p>Email: Your Email Here</p>
+<h2>Contact</h2>
 
-    <p>GitHub: ssyedibrahim431-sys</p>
+<p>GitHub: ssyedibrahim431-sys</p>
 
 </section>
 
 <footer>
-    <p>© 2026 Syed Ibrahim. All Rights Reserved.</p>
+
+© 2026 Syed Ibrahim
+
 </footer>
 
 <script src="script.js"></script>
