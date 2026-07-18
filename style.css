@@ -905,9 +905,9 @@ footer a:hover{
 
 .fade{
 
-    opacity:0;
+    opacity:1;
 
-    transform:translateY(35px);
+    transform:translateY(0);
 
     transition:.8s ease;
 
